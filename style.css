@@ -1,65 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F5F5F5;
-    text-align: center;
+    background-color: #F5F5F5; /* light gray */
   }
   
   header {
-    background-color: #333;
-    color: #fff;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  header nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
+    background-color: #1A237E; /* indigo */
+    color: #FFFFFF; /* white */
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    color: white;
-  } 
+    align-items: center;
+    padding: 20px;
+  }
   
   header h1 {
     margin: 0;
-    font-size: 2em;
   }
   
-  h2 {
-    font-size: 2em;
-    margin-top: 50px;
+  nav {
+    background-color: #FFFFFF; /* white */
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
   }
   
-  p {
-    font-size: 1.2em;
-    margin: 30px;
+  nav a {
+    color: #1A237E; /* indigo */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section h2 {
+    color: #1A237E; /* indigo */
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    color: #424242; /* gray */
+    font-size: 16px;
     line-height: 1.5;
-    text-align: left;
+    margin-bottom: 20px;
   }
   
-  .about-section {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .portfolio-section {
-    margin: 50px 0;
-    text-align: left;
-  }
-  
-  .portfolio-section h2 {
-    font-size: 2em;
+  footer {
+    background-color: #1A237E; /* indigo */
+    color: #FFFFFF; /* white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
   }
   
-  .portfolio-section p {
-    font-size: 1.2em;
-    margin: 30px;
-    line-height: 1.5;
-    text-align: left;
+  footer p {
+    margin: 0;
   }
   
