@@ -35,4 +35,19 @@ body {
     margin: 0 auto;
     text-align: center;
   }
+  .portfolio-section {
+    margin: 50px 0;
+    text-align: left;
+  }
+  
+  .portfolio-section h2 {
+    font-size: 2em;
+  }
+  
+  .portfolio-section p {
+    font-size: 1.2em;
+    margin: 30px;
+    line-height: 1.5;
+    text-align: left;
+  }
   
