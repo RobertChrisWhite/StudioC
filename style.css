@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 30px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .about-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
