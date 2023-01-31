@@ -53,6 +53,10 @@
     margin: 20px;
     padding: 20px;
     width: calc(33.33% - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
   }
   
   section h2 {
