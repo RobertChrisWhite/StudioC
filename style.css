@@ -102,11 +102,98 @@
   /* styles for tablet screens */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* CSS rules */
+    
+    /* reduce font size */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #ADD8E6;  
+      font-size: 18px;
+    }
+    header h1 {
+      font-size: 28px;
+    }
+    section h2 {
+      font-size: 28px;
+    }
+    footer {
+      font-size: 14px;
+    }
+    
+    /* adjust padding */
+    header {
+      padding: 10px;
+    }
+    nav a {
+      padding: 10px;
+    }
+    main {
+      padding: 10px;
+    }
+    section {
+      padding: 10px;
+    }
+    footer {
+      padding: 10px;
+    }
+    
+    /* reduce section width and adjust margins */
+    section {
+      width: calc(50% - 20px);
+      margin: 10px;
+    }
   }
   
   /* styles for mobile screens */
   @media only screen and (max-width: 767px) {
     /* CSS rules */
+    
+    /* reduce font size */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #ADD8E6;
+      font-size: 14px;
+    }
+    header h1 {
+      font-size: 24px;
+    }
+    section h2 {
+      font-size: 24px;
+    }
+    footer {
+      font-size: 12px;
+    }
+    
+    /* adjust padding */
+    header {
+      padding: 5px;
+    }
+    nav a {
+      padding: 5px;
+    }
+    main {
+      padding: 5px;
+    }
+    section {
+      padding: 5px;
+    }
+    footer {
+      padding: 5px;
+    }
+    
+    /* reduce section width and adjust margins */
+    section {
+      width: calc(100% - 10px);
+      margin: 5px;
+    }
+    
+    /* hide navigation bar and make header center aligned */
+    nav {
+      display: none;
+    }
+    header {
+      text-align: center;
+    }
   }
+
 
 
