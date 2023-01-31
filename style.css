@@ -1,8 +1,9 @@
 body {
-    background-image: url(bg-image.jpg);
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-  }
+    background-image: url(DallEBackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } 
   
   header h1 {
     font-size: 3em;
