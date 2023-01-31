@@ -1,95 +1,112 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles for desktop screens */
+@media only screen and (min-width: 1024px) {
+    /* CSS rules */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #ADD8E6;
+    }
+    
+    header {
+        background-color: #1E90FF;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    nav {
+        background-color: #1E90FF;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    nav a {
+        color: #fff;
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    section {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        margin: 20px;
+        padding: 20px;
+        width: calc(33.33% - 40px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 300px;
+    }
+    
+    section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    section img {
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+  }
+  
+  /* styles for tablet screens */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules */
+  }
+  
+  /* styles for mobile screens */
+  @media only screen and (max-width: 767px) {
+    /* CSS rules */
+  }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ADD8E6;
-}
 
-header {
-    background-color: #1E90FF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    width: 50px;
-    height: 50px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 36px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-nav {
-    background-color: #1E90FF;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav a {
-    color: #fff;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-section {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    margin: 20px;
-    padding: 20px;
-    width: calc(33.33% - 40px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 300px;
-}
-
-section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-section img {
-    display: block;
-    margin: 0 auto 20px;
-    width: 200px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
-}
