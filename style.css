@@ -13,7 +13,7 @@
     }
     
     header {
-        background-image: url('/Images/MediaMixerBackground.jpeg');
+        background-image: url('Images/MediaMixerBackground.jpeg');
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -105,6 +105,9 @@
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* CSS rules */
     header {
+        background-image: url('Images/MediaMixerBackground.jpeg');
+        background-size: cover;
+        background-position: center;
         height: 80px;
         width: 100%;
         display: flex;
@@ -164,6 +167,9 @@
   @media only screen and (max-width: 767px) {
     /* CSS rules */
     header {
+        background-image: url('Images/MediaMixerBackground.jpeg');
+        background-size: cover;
+        background-position: center;
         height: 60px;
         width: 100%;
         display: flex;
