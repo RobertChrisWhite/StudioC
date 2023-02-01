@@ -1,11 +1,11 @@
 # StudioC
 Portfolio Website
 
-Information about Blue Rhino Recordings to help ChapGPT generate useful narrative on the website.
+Information about Reckless Rhino Productions to help generate useful narrative information on the website.
 
-About Blue Rhino Recordings: Blue Rhino Recordings was found in 2023 by Chris White, a composer, producer, and engineer
+Reckless Rhino Productions was found in 2023 by Chris White, a composer, producer, and engineer with a Bachelors in Music Production from Full Sail University. Cofounded by Silver White, a guitarist, vocalist and project manager with degrees in business from American Military University and many professional certifications.
 
-Blue Rhino Recording services:
+Reckless Rhino Productions services:
 1. Music production
     a. Consulation
     b. Arrangement
